@@ -1,3 +1,5 @@
+***Removed Openhab, replaced with homeassitant***
+
 # Homebridge-Docker
 
 Docker image for Homebrigde by nfarina
