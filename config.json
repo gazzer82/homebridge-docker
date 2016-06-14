@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "423-67-887"
+    },
+    
+    "description": "Jeanne home homebridge controller.",
+
+    "platforms": [
+    {
+      "platform": "HomeAssistant",
+      "name": "HomeAssistant",
+      "host": "http://10.0.1.50:8123",
+      "password": "yourapipassword",
+      "supported_types": ["light", "switch", "media_player", "scene"]
+    }
+  ]
+}
